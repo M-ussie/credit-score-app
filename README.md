@@ -56,7 +56,10 @@ API Usage
 
 You can use Postman or CURL to test the API. Below is an example of how to use CURL:
 
-curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d 
+
+
+'{
     "Age": 45,
     
     "Annual_Income": 120000,
@@ -122,6 +125,8 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
  Screenshots
  
  Postman
+
+  The following screenshot shows a successful request made using Postman:
  
  ![image](https://github.com/M-ussie/credit-score-app/assets/108830669/af9466f1-29f4-4088-9c29-69f2ec0b0601)
  ![image](https://github.com/M-ussie/credit-score-app/assets/108830669/c177643a-8a55-4b29-a5f8-766da11c2055)
@@ -131,7 +136,10 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 
 The web application is deployed on Heroku: 
 
+The following screenshot shows the application successfully deployed on Heroku:
+
  Heroku
+
  
  ![Screenshot 2024-05-23 144355](https://github.com/M-ussie/credit-score-app/assets/108830669/9c5a6133-eca9-4b62-a9dc-da035791ef6a)
 
