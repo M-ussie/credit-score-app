@@ -139,43 +139,7 @@ The web application is deployed on Heroku:
 
 
 
-Summary of Steps Completed
 
-
-Data Loading and Preprocessing:
-
-Loaded the dataset (credit_scores.csv).
-
-Deleted unnecessary features: "Name", "SSN", "ID", "Customer_ID".
-
-Set Credit_Score as the target variable.
-
-Divided the dataset into 80% training and 20% testing sets using a random seed of 1.
-
-Performed data preprocessing including handling missing values and scaling numerical features.
-
-Model Development and Hyperparameter Tuning:
-
-Developed a Support Vector Machine (SVM) model for credit score classification.
-
-Tuned hyperparameters: kernel values ('rbf' and 'linear') and complexity values (0.01, 10, 20).
-
-Reported the accuracy of the best model.
-
-Retrained the best model using the entire dataset and saved it as best_credit_score_model.pkl.
-
-
-Web Application Development:
-
-Developed a Flask web application to serve the model.
-
-Created a RESTful API endpoint /predict to make predictions.
-
-Deployment:
-
-Deployed the web application on Heroku.
-
-Made the project publicly accessible on GitHub and Kaggle.
 
 Links
 
